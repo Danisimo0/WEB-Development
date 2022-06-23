@@ -1,0 +1,27 @@
+div p {
+	background-color: black;
+  	color: white;
+	margin: 50px;
+	padding: 15px 25px;
+
+}
+
+
+span h1{
+	background-color: green;
+	color: orange;
+	margin: 50px;
+	padding: 15px 25px;
+}
+li:first-child{
+	background-color: blue;
+	color: white;
+}
+li:nth-child(5){
+	background-color:pink;
+	color: white;
+}
+li:last-child{
+	background-color: red;
+	color: white;
+}
