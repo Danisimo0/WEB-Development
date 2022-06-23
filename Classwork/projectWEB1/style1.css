@@ -1,0 +1,6 @@
+.border2 {
+	border:  6px dashed red;
+	background:  lightblue;
+	padding: 15px;
+	background-clip: padding-box;
+}

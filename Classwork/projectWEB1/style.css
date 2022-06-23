@@ -1,0 +1,13 @@
+/* (hex) hexedecimal => red , green , blue, 0,1,  0-7,  0-9 + abcdef */
+
+/* RGB => red , green , blue, -> 0-255/ *
+
+/* RGBA => red, green , blue, alpha -> 0-255 , alpha -> 0-1 /*
+
+/* HSL => hue situration light -> 0 - 360
+/* HSLA => hue situration light -> 0 - 360 0-1 /* 
+
+
+.bg{
+	background: ;
+}
