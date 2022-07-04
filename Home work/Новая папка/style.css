@@ -1,0 +1,57 @@
+
+.container {
+   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    /*black or white hmmm....*/
+    padding: 14px 0px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    align-self: center;
+  /*долго думал делать ли на всю страницу контент так и не решил оставил так*/
+
+
+}
+button:hover {
+    opacity: 0.8;
+}
+button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+
+
+}
+.cancelbtn {
+    width: 30%;
+    padding: 10px 10px;
+    background-color: #f44336;
+
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+a:link {
+    color: #0000d0;
+   }
+a:visited {
+    color: #900060;
+   }
+a:active {
+    color: #f00; 
