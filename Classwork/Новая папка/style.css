@@ -1,0 +1,104 @@
+
+
+
+.container {
+  display: flex;
+  justify-content: space-around;
+
+}
+.logo {
+    width: 300px;
+    height: 106px;
+    align: center;
+    margin-top: 13%;
+    margin-left: 12%;
+
+}
+
+
+
+
+
+
+
+.logo_text{
+   font-size: 20px;
+
+    margin: -200px;
+
+    padding-left: 20px;
+    line-height: 28px;
+    width: auto;
+
+
+    letter-spacing: normal;
+ 
+    color: black;
+    display: inline-block;
+    font-weight: normal;
+    margin-top: -15px;
+    margin-left: 10px;
+   font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+
+
+
+}
+.right_table {
+   width: 370px;
+   height: 300px;
+   margin-right: 150px;
+   margin-bottom: 50px;
+   margin-top: -150px;
+   padding: 20px 0 28px;
+   box-sizing: border-box;
+    float: right;
+
+ box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+        border: none;
+    border-radius: 8px;
+    background: white;
+} 
+
+input[type="text" i] {
+    padding: 2px 2px;
+}
+
+.login {
+   
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    height: 22px;
+    line-height: 16px;
+    padding: 0 8px;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 14px;
+    margin: auto;
+    padding: 6px 0;
+    width: 302px;
+}
+
+}}
+.button1 {
+    background-color: #4CAF50;
+    color: white;
+  
+    padding: 14px 0px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    align-self: center;
+
+
+}
+.button1:hover {
+    opacity: 0.8;
+}
+.button1:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+
+}
