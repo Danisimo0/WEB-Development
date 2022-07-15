@@ -59,11 +59,10 @@
     background: white;
 } 
 
-input[type="text" i] {
-    padding: 2px 2px;
-}
+
 
 .login {
+   
    
     border: 1px solid #dddfe2;
     color: #1d2129;
@@ -78,13 +77,20 @@ input[type="text" i] {
     margin: auto;
     padding: 6px 0;
     width: 302px;
+    border-radius:white ;
+}
+.login2 {
+    border: 2px solid #dddfe2;
+    padding: 5px;
+    margin: 4px;
+
 }
 
-}}
+  }
 .button1 {
     background-color: #4CAF50;
     color: white;
-  
+    
     padding: 14px 0px;
     margin: 8px 0;
     border: none;
