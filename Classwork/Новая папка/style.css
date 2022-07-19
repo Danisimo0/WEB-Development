@@ -1,28 +1,17 @@
-
-
-
 .container {
   display: flex;
   justify-content: space-around;
-
-}
+ } 
 .logo {
     width: 300px;
     height: 106px;
     align: center;
     margin-top: 13%;
     margin-left: 12%;
+ }
 
-}
-
-
-
-
-
-
-
-.logo_text{
-   font-size: 20px;
+.logo_text {
+   font-size: 23px;
 
     margin: -200px;
 
@@ -39,54 +28,125 @@
     margin-top: -15px;
     margin-left: 10px;
    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
-
-
-
 }
-.right_table {
-   width: 370px;
-   height: 300px;
-   margin-right: 150px;
-   margin-bottom: 50px;
-   margin-top: -150px;
-   padding: 20px 0 28px;
-   box-sizing: border-box;
-    float: right;
-
- box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
-        border: none;
-    border-radius: 8px;
-    background: white;
-} 
-
-
 
 .login {
-   
-   
-    border: 1px solid #dddfe2;
-    color: #1d2129;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    height: 22px;
-    line-height: 16px;
-    padding: 0 8px;
-    vertical-align: middle;
-    display: inline-block;
-    font-size: 14px;
-    margin: auto;
-    padding: 6px 0;
-    width: 302px;
-    border-radius:white ;
-}
-.login2 {
-    border: 2px solid #dddfe2;
-    padding: 5px;
-    margin: 4px;
+    position: relative;
+    background-color: #FFFFFF;
+    height: 290px;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    top: 18vh;
+    justify-content: flex-start;
+     margin-right: 150px;
+    margin-top: -250px;
+   padding: 20px 0 28px;
+    align-items: center;
+    float: right;
+    box-shadow: 0 5px 5px 3px gainsboro;
 
 }
 
-  }
+#login > a {
+    margin: 18px 0;
+    text-decoration: none;
+    font-size: 15px;
+    color: #1877F2;
+    
+}
+
+#login > a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+hr{
+    width: 95%;
+    height: 0.1%;
+    background-color: rgb(194, 193, 193);
+    border: none;
+}
+
+ input[type=text], input[type=password]{
+    height: 35%;
+    margin: 8px 0 ;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    width: 95%;
+    border: 1.5px solid #EEEFF0;
+    padding: 10px;
+
+}
+ input[type=password]{
+    margin-bottom: 20px;
+
+}
+ input[type=text]:focus, input[type=password]{
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 0 0 5px #719ECE;
+    caret-color: blue;
+}
+
+
+#login-button {
+    background-color: #1877F2;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    height: 130px;
+    font-weight: bold;
+    width: 95%;
+
+}
+#login-button:hover {
+    background-color: #166FE5;
+    cursor: pointer;
+}
+
+#create-new-account{
+    background-color: #42b72a;
+    color: #FFFFFF;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    height: 130px;
+    font-weight: bold;
+    width: 60%;
+    margin-top: 20px;
+
+}
+
+#create-new-account:hover{
+    background-color: #36A420;
+    cursor: pointer;
+}
+
+p{
+    font-size: 15px;
+    position: absolute;
+    bottom: -55px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  }
 .button1 {
     background-color: #4CAF50;
     color: white;
@@ -108,3 +168,4 @@
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 
 }
+*/
