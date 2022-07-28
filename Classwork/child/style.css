@@ -1,5 +1,5 @@
 .key {
-    width: 250px;
+    width: 230px;
     height: 200px;
     background: red;
     position: relative;
@@ -39,3 +39,4 @@ body {
         background-position: 0% 50%;
     }
 }
+
